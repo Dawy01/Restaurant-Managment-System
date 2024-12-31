@@ -2,7 +2,7 @@ public class Chefs {
 
     String chefName;
     int age;
-    String [] certifications =new String[6];
+    String [] certifications;
 
     public void printChefsData(){
         System.out.println("Chef name: " + chefName);
