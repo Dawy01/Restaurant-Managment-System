@@ -12,4 +12,10 @@ public class Chefs {
             System.out.print(certificate + " ");
 
     }
+
+    Chefs(String chefName, int age, String [] certifications){
+        this.chefName=chefName;
+        this.age=age;
+        this.certifications=certifications;
+    }
 }

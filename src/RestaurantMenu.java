@@ -8,4 +8,15 @@ public class RestaurantMenu {
         System.out.println("Price: " + price);
     }
 
+    RestaurantMenu(String menuItem, int price){
+        this.menuItem=menuItem;
+        this.price=price;
+    }
+
+    RestaurantMenu(String menuItem){
+        this.menuItem=menuItem;
+        System.out.println("Price based on weight");
+
+    }
+
 }
