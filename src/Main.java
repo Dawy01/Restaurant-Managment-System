@@ -1,7 +1,9 @@
+import employees.Chefs;
+import employees.Staff;
 public class Main {
 
     public static void main (String [] args){
-        //Staff
+        //employees.Staff
         System.out.println("\nFirst Employee");
         Staff emplpyee1= new Staff("Ahmed", 123456, 1.500);
         emplpyee1.printStaffData();
@@ -28,7 +30,7 @@ public class Main {
         RestaurantMenu item4= new RestaurantMenu("Water", 5);
         item4.printItemsData();
 
-        //Chefs
+        //employees.Chefs
         System.out.println("\nFirst Chef");
         Chefs chef1 = new Chefs("George", 38,new String[]{"CEC", "CSC", "ServSafe", "CPC", "WSET", "CMC"} );
         chef1.printChefsData();
